@@ -3,7 +3,7 @@
 
 ## Table of Content
 - [Introduction](#Introduction)
-- [Data and data cleaning](#Data and data cleaning)
+- [Data and data cleaning](#Data-and-data-cleaning)
 - [Models](#Models)
 - [Result](#Result)
 - [Options for improvment](#Options for improvment)
