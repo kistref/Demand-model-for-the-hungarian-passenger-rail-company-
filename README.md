@@ -25,7 +25,7 @@ First I tried to build a model for the whole network but at a early stage I real
 The result of the models:
 <img src="img/GLM.png" alt=GLM width='200'>
 <img src="img/GAM.png" alt=GAM width='200'>
-<img src="img/Forest.png" alt=Random-Forest width='200'>
+<img src="img/Forest.png" alt=Random-Forest width='400'>
 
 Map of the Hungarian Rail lines:
 <img src="https://www.sinekvilaga.hu/php_images/vonalkat-602x424.jpg" alt="Hungarian railway lines" />
@@ -35,10 +35,10 @@ Map of the Hungarian Rail lines:
 At the end the best fiting model was the Random Forest model. It has very high explanation power the R^2 value of this model was more than 70%.
 
 The distribution of the difference between the predicted and the original value. Linear Regression (black), Random Forest (red), GAM Model (blue):
-<img src="img/result.png" alt=Result width='200'>
+<img src="img/result.png" alt=Result width='400'>
 
 The same difference but with other confidence interval:
-<img src="img/table.jpg" alt=Table width='200'>
+<img src="img/table.jpg" alt=Table width='400'>
 
 
 ### Options for improvment
