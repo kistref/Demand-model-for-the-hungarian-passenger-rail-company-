@@ -6,7 +6,7 @@
 - [Data and data cleaning](#Data-and-data-cleaning)
 - [Models](#Models)
 - [Result](#Result)
-- [Options for improvment](#Options for improvment)
+- [Options for improvment](#Options-for-improvment)
 
 ### Introduction
 
@@ -22,11 +22,16 @@ The data was far from optimal when I get it to analyse. The data was to processe
 
 First I tried to build a model for the whole network but at a early stage I realized that according to the most recent litterature that I should use just the little part of the data. At the end  I chose the 100a line from the hungarian rail lines. I created three different models at the end to try to find the best fitting model. I created a Generalized Linear Model, a GAM (Generalized Additive Model) and a Random Forest model. During the GLM model I take account the interaction between the variables also to get the best response.
 
+<img src="img/GLM.png" alt=GLM width='400'>
+
+
 
 <img src="https://www.sinekvilaga.hu/php_images/vonalkat-602x424.jpg" alt="Hungarian railway lines" />
 
 ### Result
 
 At the end the best fiting model was the Random Forest model. It has very high explanation power the R^2 value of this model was more than 70%.
+
+
 
 
